@@ -1,13 +1,13 @@
 {
   "name": "basic-cipher",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "npm package for encoding and decoding text containing alphanumeric characters",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/Donnici/basic-cipher/issues"
   },
-  "homepage": "https://github.com/Donnici/basic-cipher#readme"
+  "homepage": "https://github.com/Donnici/basic-cipher#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
