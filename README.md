@@ -1,4 +1,4 @@
-# Basic Cipher (0.0.1)
+# Basic Cipher
 npm package for encoding and decoding text containing alphanumeric charactersnpm package for encoding and decoding text containing alphanumeric characters.
 
 
@@ -27,4 +27,32 @@ var myText = Cipher.decode('*****encode message*****', key);
 
 console.log(myText);
 // 'This is a secret message'
+```
+
+## Encode JSON
+```javascript
+var Cipher = require('basic-cipher');
+
+var key = 'Hello Word!';
+var myJSON = {
+    text: 'This is a secret message'
+};
+
+var mySecretText = Cipher.encodeJSON(myJSON, key);
+
+console.log(mySecretText);
+// '*****encode message*****'
+
+```
+
+## Decode JSON
+```javascript
+var Cipher = require('basic-cipher');
+
+var key = 'Hello Word!';
+
+var myText = Cipher.decode('*****encode json*****', key);
+
+console.log(myText);
+// {'text':'This is a secret message'}
 ```

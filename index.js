@@ -1,7 +1,11 @@
 var encode = require('./lib/encode');
 var decode = require('./lib/decode');
+var encodeJSON = require('./lib/encode-json');
+var decodeJSON = require('./lib/decode-json');
 
 module.exports = {
-    encode: encode,
-    decode: decode
+    encode,
+    decode,
+    encodeJSON,
+    decodeJSON
 };

@@ -1,6 +1,6 @@
 {
   "name": "basic-cipher",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "npm package for encoding and decoding text containing alphanumeric characters",
   "main": "index.js",
   "directories": {
@@ -18,7 +18,9 @@
     "encrypt",
     "decrypt",
     "encode",
-    "decode"
+    "decode",
+    "JSON encode",
+    "JSON decode"
   ],
   "author": "Bruno Dias Donnici",
   "license": "GPL-3.0",
