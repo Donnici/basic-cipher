@@ -1,5 +1,9 @@
 # Basic Cipher
-npm package for encoding and decoding text containing alphanumeric charactersnpm package for encoding and decoding text containing alphanumeric characters.
+[![npm version](https://img.shields.io/npm/v/basic-cipher.svg?style=flat-square)](https://www.npmjs.org/package/axios)
+[![install size](https://packagephobia.now.sh/badge?p=basic-cipher)](https://packagephobia.now.sh/result?p=basic-cipher)
+[![npm downloads](https://img.shields.io/npm/dm/basic-cipher.svg?style=flat-square)](http://npm-stat.com/charts.html?package=basic-cipher)
+
+npm package for encoding and decoding text containing alphanumeric characters
 
 
 # Example

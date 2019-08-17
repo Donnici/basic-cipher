@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/Donnici/basic-cipher#readme",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^24.9.0"
   }
 }
