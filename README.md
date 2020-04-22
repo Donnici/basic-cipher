@@ -55,7 +55,7 @@ var Cipher = require('basic-cipher');
 
 var key = 'Hello Word!';
 
-var myText = Cipher.decode('*****encode json*****', key);
+var myText = Cipher.decodeJSON('*****encode json*****', key);
 
 console.log(myText);
 // {'text':'This is a secret message'}
