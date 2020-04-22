@@ -1,6 +1,6 @@
 {
   "name": "basic-cipher",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "npm package for encoding and decoding text containing alphanumeric characters",
   "main": "index.js",
   "directories": {

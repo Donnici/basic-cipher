@@ -1,5 +1,5 @@
 # Basic Cipher
-[![npm version](https://img.shields.io/npm/v/basic-cipher.svg?style=flat-square)](https://www.npmjs.org/package/axios)
+[![npm version](https://img.shields.io/npm/v/basic-cipher.svg?style=flat-square)](https://www.npmjs.com/package/basic-cipher)
 [![install size](https://packagephobia.now.sh/badge?p=basic-cipher)](https://packagephobia.now.sh/result?p=basic-cipher)
 [![npm downloads](https://img.shields.io/npm/dm/basic-cipher.svg?style=flat-square)](http://npm-stat.com/charts.html?package=basic-cipher)
 
